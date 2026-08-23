@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bling: #d4af37;
+  --color-bling-light: #f0d878;
+  --color-ink: #050505;
+  --color-surface: #101010;
+  --color-muted: #a3a3a3;
+}
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f5f5f5;
+  background: #050505;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #050505; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+::selection { background: #d4af37; color: #050505; }
+
+.gold-gradient {
+  background: linear-gradient(135deg, #f4df8a 0%, #d4af37 45%, #9d7817 100%);
+}
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fff0a8, #d4af37 55%, #9d7817);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
