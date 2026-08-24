@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4df8a"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#8d6915"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="#090909"/>
+
+  <circle cx="650" cy="150" r="180" fill="#d4af37" opacity="0.08"/>
+
+  <path
+    d="M245 250l115-65h80l115 65-55 100-55-35v300H355V315l-55 35z"
+    fill="#141414"
+    stroke="#d4af37"
+    stroke-width="5"/>
+
+  <path d="M355 250h90v115h-90z" fill="#0a0a0a"/>
+
+  <text
+    x="400"
+    y="690"
+    fill="url(#gold)"
+    font-family="Arial,sans-serif"
+    font-size="34"
+    font-weight="900"
+    text-anchor="middle"
+    letter-spacing="6">
+    FIRST BLING
+  </text>
+
+  <text
+    x="400"
+    y="735"
+    fill="#777"
+    font-family="Arial,sans-serif"
+    font-size="18"
+    text-anchor="middle"
+    letter-spacing="3">
+    SIGNATURE TEE
+  </text>
+</svg>
